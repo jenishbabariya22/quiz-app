@@ -1,0 +1,63 @@
+/* src/components/home.css */
+
+.home-page {
+  background-color: #f0f4f8; /* Light background for a clean look */
+  padding: 60px 0;
+  min-height: 100vh; /* Full viewport height */
+}
+
+.welcome-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.description-text {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  color: #555;
+}
+
+.instructions {
+  font-size: 1.1rem;
+  font-family: "Roboto", sans-serif;
+  color: #444;
+}
+
+.instruction-list {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+}
+
+.start-quiz-button {
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  padding: 12px 30px;
+  border-radius: 50px; /* Rounded button */
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.start-quiz-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+  transform: translateY(-3px); /* Slight lift on hover */
+}
+
+.start-quiz-button:active {
+  transform: translateY(0); /* Reset lift on click */
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li:before {
+  content: "✔"; /* Add checkmark before each list item */
+  margin-right: 8px;
+  color: #007bff;
+}

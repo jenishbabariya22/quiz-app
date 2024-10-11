@@ -1,0 +1,96 @@
+body {
+  background-color: #eef2f7; /* Softer background */
+  font-family: "Poppins", sans-serif; /* Modern font */
+  color: #212529;
+}
+
+/* Heading Styles */
+h2 {
+  font-weight: 700;
+  color: #3d405b;
+  font-size: 2rem;
+}
+
+/* Card Styles */
+.quiz-card,
+.question-card,
+.score-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add a soft shadow */
+  padding: 20px;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
+}
+
+.quiz-card:hover,
+.question-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Hover shadow effect */
+}
+
+/* Button Styles */
+button {
+  background-color: #556cd6; /* New vibrant color */
+  color: #fff;
+  padding: 12px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+
+button:hover {
+  background-color: #4053b6; /* Darker hover color */
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Answer Styles */
+.correct-answer {
+  background-color: #d4edda;
+  color: #155724;
+  border: 2px solid #c3e6cb;
+}
+
+.wrong-answer {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 2px solid #f5c6cb;
+}
+
+.user-answer {
+  font-weight: 600;
+  color: #495057;
+}
+
+/* Form Check (Options) */
+.form-check {
+  margin-top: 15px;
+}
+
+.form-check input[type="radio"] + label {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.form-check input[type="radio"]:checked + label {
+  background-color: #e2e8f0;
+}
+
+/* Score Summary */
+.score-summary {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+}

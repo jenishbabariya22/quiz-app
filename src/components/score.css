@@ -1,0 +1,68 @@
+/* src/components/score.css */
+
+.score-summary {
+  padding: 40px;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+}
+
+.quiz-complete-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #343a40;
+}
+
+.score-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.user-score {
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
+}
+
+.score-highlight {
+  color: #28a745;
+}
+
+.list-group-item {
+  font-family: "Roboto", sans-serif;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.correct-answer {
+  background-color: #e0f9e0;
+  border: 1px solid #28a745;
+}
+
+.wrong-answer {
+  background-color: #f9e0e0;
+  border: 1px solid #dc3545;
+}
+
+.user-answer {
+  font-weight: bold;
+}
+
+.restart-button {
+  background-color: #007bff;
+  padding: 12px 0;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.restart-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
+}
